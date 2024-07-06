@@ -1,8 +1,36 @@
+---
+id: Scripting
+aliases: []
+tags: []
+---
+# Contents
+- [[#1. Introduction to Shell Scripting|1. Introduction to Shell Scripting]]
+  - [[#1. Introduction to Shell Scripting#1.1 Purpose of Shell Scripts|1.1 Purpose of Shell Scripts]]
+  - [[#1. Introduction to Shell Scripting#1.2 Basic Structure|1.2 Basic Structure]]
+- [[#2. Variables and Control Structures|2. Variables and Control Structures]]
+  - [[#2. Variables and Control Structures#2.1 Variables|2.1 Variables]]
+  - [[#2. Variables and Control Structures#2.2 Conditionals|2.2 Conditionals]]
+  - [[#2. Variables and Control Structures#2.3 Loops|2.3 Loops]]
+- [[#3. Taking Arguments|3. Taking Arguments]]
+  - [[#3. Taking Arguments#3.1 Positional Parameters|3.1 Positional Parameters]]
+  - [[#3. Taking Arguments#3.2 All Arguments|3.2 All Arguments]]
+  - [[#3. Taking Arguments#3.3 Option Parsing with `getopts`|3.3 Option Parsing with `getopts`]]
+- [[#4. Reading Console Input|4. Reading Console Input]]
+  - [[#4. Reading Console Input#4.1 Basic Input|4.1 Basic Input]]
+  - [[#4. Reading Console Input#4.2 Timed Input|4.2 Timed Input]]
+  - [[#4. Reading Console Input#4.3 Silent Input|4.3 Silent Input]]
+- [[#5. Comparison Operations|5. Comparison Operations]]
+  - [[#5. Comparison Operations#5.1 String Comparisons|5.1 String Comparisons]]
+  - [[#5. Comparison Operations#5.2 Numeric Comparisons|5.2 Numeric Comparisons]]
+  - [[#5. Comparison Operations#5.3 File Comparisons|5.3 File Comparisons]]
+
+---
 # Bash Scripting Basics
 
 ## 1. Introduction to Shell Scripting
 
 ### 1.1 Purpose of Shell Scripts
+
 - Automate repetitive tasks.
 - Combine multiple commands into a script for efficiency.
 
@@ -77,6 +105,7 @@
 ### 3.2 All Arguments
 
 - **`$@`:** Treats each quoted argument as separate.
+
   ```bash
   for arg in "$@"; do
       echo "Arg: $arg"
@@ -130,14 +159,20 @@
 
 ## 5. Comparison Operations
 
+- [[#5.1 String Comparisons|5.1 String Comparisons]]
+- [[#5.2 Numeric Comparisons|5.2 Numeric Comparisons]]
+- [[#5.3 File Comparisons|5.3 File Comparisons]]
+
 ### 5.1 String Comparisons
 
 - **Equality:** `=` or `==`
+
   ```bash
   [ "$str1" = "$str2" ]
   ```
 
 - **Inequality:** `!=`
+
   ```bash
   [ "$str1" != "$str2" ]
   ```
@@ -150,16 +185,19 @@
 ### 5.2 Numeric Comparisons
 
 - **Equality:** `-eq`
+
   ```bash
   [ $num1 -eq $num2 ]
   ```
 
 - **Inequality:** `-ne`
+
   ```bash
   [ $num1 -ne $num2 ]
   ```
 
 - **Greater/Less Than:** `-gt`, `-lt`
+
   ```bash
   [ $num1 -gt $num2 ]
   [ $num1 -lt $num2 ]
@@ -174,16 +212,19 @@
 ### 5.3 File Comparisons
 
 - **Exists:** `-e`
+
   ```bash
   [ -e "$file" ]
   ```
 
 - **Is Directory:** `-d`
+
   ```bash
   [ -d "$dir" ]
   ```
 
 - **Is File:** `-f`
+
   ```bash
   [ -f "$file" ]
   ```
@@ -194,3 +235,4 @@
   [ -w "$file" ]
   [ -x "$file" ]
   ```
+

@@ -6,44 +6,27 @@ tags: []
 
 # Contents
 
-1. [Basic Linux Commands](#basic-linux-commands)
-   1. [Text and Data Manipulation](#Text-and-Data-Manipulation)
-      - [`echo`](#echo)
-      - [`grep`](#grep)
-   2. [Command Chaining and Redirection](#command-chaining-and-redirection)
-      - [`;`](#)
-      - [`|`](#-1)
-      - [`>`](#)
-      - [`>>`](#-1)
-      - [`<`](#-2)
-      - [`&&`](#-3)
-      - [`||`](#-4)
-   3. [File Navigation](#file-navigation)
-      - [`pwd`](#pwd)
-      - [`ls`](#ls)
-      - [`cd`](#cd)
-   4. [File Operations](#file-operations)
-      - [`cp`](#cp)
-      - [`mv`](#mv)
-      - [`rm`](#rm)
-   5. [File Viewing](#file-viewing)
-      - [`cat`](#cat)
-      - [`less`](#less)
-      - [`more`](#more)
-      - [`head`](#head)
-      - [`tail`](#tail)
-   6. [Permission Management](#permission-management)
-      - [`chmod`](#chmod)
-      - [`chown`](#chown)
-   7. [Process Management](#process-management)
-      - [`ps`](#ps)
-      - [`top`](#top)
-      - [`kill`](#kill)
-   8. [Networking](#networking)
-      - [`ifconfig`](#ifconfig)
-      - [`ping`](#ping)
-      - [`curl`](#curl)
-
+- [[#Software Installation on Linux|Software Installation on Linux]]
+  - [[#Software Installation on Linux#Debian-Based Systems (e.g., Ubuntu, Debian)|Debian-Based Systems (e.g., Ubuntu, Debian)]]
+    - [[#Debian-Based Systems (e.g., Ubuntu, Debian)#Using `apt` (Advanced Package Tool)|Using `apt` (Advanced Package Tool)]] - [[#Update Package Lists|Update Package Lists]] - [[#Install a Package|Install a Package]] - [[#Remove a Package|Remove a Package]] - [[#Upgrade Installed Packages|Upgrade Installed Packages]]
+  - [[#Software Installation on Linux#Fedora-Based Systems (e.g., Fedora, Red Hat)|Fedora-Based Systems (e.g., Fedora, Red Hat)]]
+    - [[#Fedora-Based Systems (e.g., Fedora, Red Hat)#Using `dnf` (Dandified YUM)|Using `dnf` (Dandified YUM)]] - [[#Update Package Lists|Update Package Lists]] - [[#Install a Package|Install a Package]] - [[#Remove a Package|Remove a Package]] - [[#Upgrade Installed Packages|Upgrade Installed Packages]]
+  - [[#Software Installation on Linux#Arch-Based Systems (e.g., Arch Linux, Manjaro)|Arch-Based Systems (e.g., Arch Linux, Manjaro)]]
+    - [[#Arch-Based Systems (e.g., Arch Linux, Manjaro)#Using `pacman` (Package Manager)|Using `pacman` (Package Manager)]] - [[#Update Package Lists|Update Package Lists]] - [[#Install a Package|Install a Package]] - [[#Remove a Package|Remove a Package]] - [[#Upgrade Installed Packages|Upgrade Installed Packages]]
+  - [[#Software Installation on Linux#Using Additional Package Managers|Using Additional Package Managers]]
+    - [[#Using Additional Package Managers#Snap (~~Universal~~ Stupid Package Manager)|Snap]]
+    - [[#Using Additional Package Managers#**Flatpak (Universal Package Manager)**|Flatpak]]
+    - [[#Using Additional Package Managers#**AppImage (Portable Application Format)**|AppImage]]
+  - [[#Software Installation on Linux#Text and Data Manipulation|Text and Data Manipulation]] - [[#`echo`|`echo`]] - [[#`grep`|`grep`]]
+  - [[#Software Installation on Linux#Command Chaining and Redirection|Command Chaining and Redirection]] - [[#`;`|`;`]] - [[#`|`|`|`]] - [[#`>`|`>`]] - [[#`>>`|`>>`]] - [[#`<`|`<`]] - [[#`&&`|`&&`]] - [[#`||`|`||`]]
+  - [[#Software Installation on Linux#File Navigation|File Navigation]] - [[#`pwd`|`pwd`]] - [[#`ls`|`ls`]] - [[#`cd`|`cd`]]
+  - [[#Software Installation on Linux#File Operations|File Operations]] - [[#`cp`|`cp`]] - [[#`mv`|`mv`]] - [[#`rm`|`rm`]]
+  - [[#Software Installation on Linux#File Viewing|File Viewing]] - [[#`cat`|`cat`]] - [[#`less`|`less`]] - [[#`more`|`more`]] - [[#`head`|`head`]] - [[#`tail`|`tail`]]
+  - [[#Software Installation on Linux#Permission Management|Permission Management]] - [[#`chmod`|`chmod`]] - [[#`chown`|`chown`]]
+  - [[#Software Installation on Linux#Process Management|Process Management]] - [[#`ps`|`ps`]] - [[#`top`|`top`]] - [[#`kill`|`kill`]]
+  - [[#Software Installation on Linux#Networking|Networking]] - [[#`ifconfig`|`ifconfig`]] - [[#`ping`|`ping`]] - [[#`curl`|`curl`]]
+  
+---
 # Basic Linux Commands
 
 ## Software Installation on Linux

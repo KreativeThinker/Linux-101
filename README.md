@@ -3,7 +3,6 @@ id: Linux Basics 101
 aliases: []
 tags: []
 ---
-
 # Contents
 
 #### **Introduction to Linux**
@@ -150,18 +149,7 @@ echo "Error log created."
   - Uses `grep` to find lines containing "ERROR".
   - Redirects output to a file (`errors.txt`).
 
-#### **Q&A and Hands-on Practice**
-
-- **Q&A Session**
-  - Address questions from participants.
-- **Interactive Exercise**
+#### **Exercise**
   - Task: Write a script to list files modified in the last 7 days.
 
-```bash
-#!/bin/bash
-# List modified files script
-find /path/to/search -type f -mtime -7
-```
-
-- **Explanation**
-  - Uses `find` to locate files modified in the past week.
+#### **Resources**
