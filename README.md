@@ -165,14 +165,3 @@ find /path/to/search -type f -mtime -7
 
 - **Explanation**
   - Uses `find` to locate files modified in the past week.
-
-#### **Wrap-up and Resources**
-
-- **Summary**
-  - Recap of topics covered.
-- **Resources**
-  - Recommended readings and online tutorials.
-- **Further Learning**
-  - Emphasis on practice and continuous learning.
-
-**Conclude the seminar by thanking attendees and providing contact information for follow-up questions.**
