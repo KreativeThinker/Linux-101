@@ -153,3 +153,6 @@ echo "Error log created."
   - Task: Write a script to list files modified in the last 7 days.
 
 #### **Resources**
+- [Linux Journey](https://linuxjourney.com/)
+- [Linux Command](https://linuxcommand.org/)
+- [Linux Survival](https://linuxsurvival.com/)
